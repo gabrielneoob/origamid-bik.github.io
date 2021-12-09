@@ -1,0 +1,32 @@
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 60px;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+  padding: 1rem 2rem;
+  display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.menu a:hover {
+  border-color: var(--cor-secundaria);
+}
